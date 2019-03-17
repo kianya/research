@@ -30,7 +30,7 @@ def tokenize(text, regex=regex, stopwords=mystopwords):
     """
     try:
         clean_text = " ".join(regex.findall(text)).lower()
-        tokens = [token for token in text.split(' ') if not token in stopwords]
+        tokens = [token for token in clean_text.split(' ') if not token in stopwords]
         return tokens
     except:
         return []
