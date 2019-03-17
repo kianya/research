@@ -1,0 +1,5 @@
+
+wikicomments/docker/api/models/stopwords.txt
+wikicomments/docker/api/models/model.pkl
+wikicomments/docker/api/models/doc2vec
+wikicomments/data/dataset_for_assignment.csv
